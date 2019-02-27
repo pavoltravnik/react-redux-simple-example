@@ -10,7 +10,6 @@ export const defaultState = {
 export default function reducer(state = defaultState, action) {
   switch (action.type) {
     case CHANGE_TOGGLE:
-      console.log(action);
       return Object.assign({}, state, { toggle: action.toggle });
     default:
       return state;

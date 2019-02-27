@@ -12,7 +12,6 @@ class Toggle extends Component {
     }
 
     render() {
-      console.log(this.props.toggle);
       return (
           <div>
             <button onClick={this.handleToggle}>
